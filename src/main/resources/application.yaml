@@ -2,3 +2,5 @@ spring:
   application:
     name: factoryMethod
 
+server:
+  port: 8080
