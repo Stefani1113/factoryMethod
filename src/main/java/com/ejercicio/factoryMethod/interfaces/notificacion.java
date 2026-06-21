@@ -1,5 +1,6 @@
 package com.ejercicio.factoryMethod.interfaces;
 
-public interface notificacion {
-    String enviar();
+
+public interface Notificacion {
+    String enviarNotificacion();
 }
