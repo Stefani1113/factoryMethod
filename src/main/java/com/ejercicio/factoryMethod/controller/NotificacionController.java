@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 public class NotificacionController {
     
-    private NotificacionService service;
+    private final NotificacionService service;
 
     @GetMapping("{tipo}")
     public String enviar(@PathVariable String tipo) {
